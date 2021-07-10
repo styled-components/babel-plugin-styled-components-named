@@ -24,3 +24,5 @@ export const useNamespace = state => {
 export const usePureAnnotation = state => getOption(state, 'pure', false)
 
 export const useCssProp = state => getOption(state, 'cssProp', true)
+export const preferOuterAssignment = state =>
+  getOption(state, 'preferOuterAssignment', false)
